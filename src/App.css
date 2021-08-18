@@ -1,21 +1,26 @@
 .App {
-	background-color: rgb(38, 61, 61);
+	background-color: rgb(189, 189, 189);
 	text-align: center;
 	background-size: cover;
 	max-height: fit-content;
 	min-height: 100vh;
+}
+
+.title {
 	color: ghostwhite;
+	text-decoration: none;
 }
 
 .sidebar {
-	background-color: #70707a;
+	background-color: #5e5ec4;
+	margin-bottom: 2vh;
 }
 
-.sidebar p {
+.link {
 	display: inline;
 	padding: 10px;
 	color: ghostwhite;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 nav {
