@@ -31,20 +31,22 @@ class App extends Component {
 						</nav>
 					</div>
 
-					<main>
+					<main className='main'>
 						<Route path='/' exact component={Home} />
 						<Route path='/about-us' component={AboutUs} />
 						<Route path='/contact' component={Contact} />
 						<Route path='/products-services' component={Products} />
 					</main>
-					<footer className={'fixed-bottom'}>
-						<p>
+
+					
+					<footer>
+						
 							Austin Rebuilders, Inc. <br />
 							505 West Oltorf Street * Austin, TX 78704 <br /> 512-448-0884 *
 							512-448-0218 <br />
 							512-441-2780 Fax <br />
 							info@austinrebuildersinc.com
-						</p>
+						
 					</footer>
 				</div>
 			</div>
