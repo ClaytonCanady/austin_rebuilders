@@ -5,13 +5,16 @@ import Home from './Home';
 import AboutUs from './AboutUs';
 import Contact from './Contact';
 import Products from './Products';
+// import hoseHero from './images/hoseHero.png';
 class App extends Component {
 	render() {
 		return (
 			<div>
 				<div className='App'>
 					<div className='sidebar'>
-						<h1 className={'title'}>Austin Rebuilders</h1>
+						<h1 className={'title'}>AUSTIN REBUILDERS</h1>
+						<h3>A/C PARTS & HOSES, INC.</h3>
+						<h5>AUTOMOTIVE - HEAVY DUTY - FARM</h5>
 
 						<nav>
 							<Link to='/'>
@@ -38,16 +41,7 @@ class App extends Component {
 						<Route path='/products-services' component={Products} />
 					</main>
 
-					
-					<footer>
-						
-							Austin Rebuilders, Inc. <br />
-							505 West Oltorf Street * Austin, TX 78704 <br /> 512-448-0884 *
-							512-448-0218 <br />
-							512-441-2780 Fax <br />
-							info@austinrebuildersinc.com
-						
-					</footer>
+				
 				</div>
 			</div>
 		);
