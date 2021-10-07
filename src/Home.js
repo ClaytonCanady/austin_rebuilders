@@ -5,9 +5,10 @@ import contenental from './images/contenental.png';
 import sanden from './images/Sanden.png';
 import spal from './images/spal.png';
 import valeo from './images/valeo.png';
-import shop1 from './images/shop1.jpeg'
+import shop1 from './images/shop1.jpeg';
 import shop2 from './images/shop2.jpeg';
 import shop3 from './images/shop3.jpeg';
+import gatesLogo from './images/gatesLogo.jpeg';
 import { Carousel } from 'react-bootstrap';
 class Home extends Component {
 	render() {
@@ -15,27 +16,29 @@ class Home extends Component {
 			<div>
 				<div className='logos'>
 					<img src={denso} alt='denso' />
-					<img src={atco} alt='atco' />
 					<img src={contenental} alt='continental' />
+					<img src={gatesLogo} alt='gates' />
 					<img src={sanden} alt='sanden' />
 					<img src={spal} alt='spal' />
 					<img src={valeo} alt='valeo' />
+					<img src={atco} alt='atco' />
 				</div>
 
 				<br></br>
 				<div className='carousel'>
 					<Carousel>
 						<Carousel.Item>
-							<img src={shop3} />
+							<img src={shop3} alt='front of shop' />
 						</Carousel.Item>
 						<Carousel.Item>
-							<img src={shop2} />
+							<img src={shop2} alt='front of shop' />
 						</Carousel.Item>
 						<Carousel.Item>
-							<img src={shop1} />
+							<img src={shop1} alt='front of shop' />
 						</Carousel.Item>
 					</Carousel>
 				</div>
+				<br/>
 
 				<h2>We Specialize In Crimping All Hoses.</h2>
 				<ul>

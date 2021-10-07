@@ -7,7 +7,7 @@ class Contact extends Component {
 				<h2>Hours</h2>
 				<p className='bold'>MONDAY - FRIDAY</p>
 				<p>8:00 AM - 5:00 PM</p>
-				<p className='bold'>SATURDAY (Summer Only April - August)</p>
+				<p className='bold'>SATURDAY (Summer Only* Memorial Day - Labor Day)</p>
 				<p>8:30 AM - 12:00 PM</p>
 				<p className='bold'>SUNDAY CLOSED</p>
 				<footer>
