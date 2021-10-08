@@ -14,7 +14,7 @@ class Contact extends Component {
 					Austin Rebuilders, Inc. <br />
 					505 West Oltorf Street * Austin, TX 78704 <br /> 512-448-0884 *
 					512-448-0218 <br />
-					512-441-2780 Fax <br />
+					866-771-2367 Fax <br />
 					info@austinrebuildersinc.com
 				</footer>
 			</div>
