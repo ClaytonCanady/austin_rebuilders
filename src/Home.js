@@ -8,6 +8,7 @@ import valeo from './images/valeo.png';
 import shop1 from './images/shop1.jpeg';
 import shop2 from './images/shop2.jpeg';
 import shop3 from './images/shop3.jpeg';
+import gatesHose from './images/gatesHose.png';
 import gatesLogo from './images/gatesLogo.jpeg';
 import { Carousel } from 'react-bootstrap';
 class Home extends Component {
@@ -23,7 +24,16 @@ class Home extends Component {
 					<img src={valeo} alt='valeo' />
 					<img src={atco} alt='atco' />
 				</div>
-
+				<br />
+				<h1>What's New</h1>
+				<img src={gatesHose} alt='whats new' className='whatsNew' />
+				<p>
+					We are excited to now offer repair of hydraulic hoses. We recommend
+					inspecting your hoses at least every week and replacing them as
+					preventative maintenance every 2 years. Hydraulic hose leaks can be
+					dangerous as well as costing you valuable time operating your
+					equipment.
+				</p>
 				<br></br>
 				<div className='carousel'>
 					<Carousel>
@@ -38,7 +48,9 @@ class Home extends Component {
 						</Carousel.Item>
 					</Carousel>
 				</div>
-				<br/>
+				<br />
+
+				<br />
 
 				<h2>We Specialize In Crimping All Hoses.</h2>
 				<ul>

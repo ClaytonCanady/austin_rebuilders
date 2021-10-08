@@ -54,7 +54,8 @@ class Products extends Component {
 						</p>
 					</div>
 					<div className='product'>
-						<h3>CLUTCH ASSEMBLIES - Some models sold separately</h3>
+						<h3>CLUTCH ASSEMBLIES </h3>
+						<h5>Some models sold separately</h5>
 						<p>Warner Electric, Ogura, Motorcraft, A/C Delco, Sanden, Seltec</p>
 					</div>
 					<div className='product'>

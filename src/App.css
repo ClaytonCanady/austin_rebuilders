@@ -57,7 +57,10 @@ nav {
 	
 	
 }
-
+.whatsNew {
+	padding-bottom: 15px;
+	height: 40vh;
+}
 .carousel img {
 	max-width: 70vw;
 }
