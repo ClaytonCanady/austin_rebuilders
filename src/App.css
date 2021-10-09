@@ -1,5 +1,5 @@
 .App {
-	background-color: rgb(189, 189, 189);
+	background-color: rgb(255, 255, 255);
 	background-size: cover;
 	max-height: fit-content;
 	min-height: 100vh;
@@ -37,12 +37,28 @@ nav {
 	height: max-content;
 }
 
+.carousel {
+	width: 100vw;
+	min-height: 50vh;
+	background-color: black;
+	padding-top: 1em;
+	text-align: center;
+}
+.carousel img {
+	max-width: 60vh;
+}
+.text {
+	margin-left: 5vw;
+	margin-right: 5vw;
+}
 .bold {
 	font-weight: bold;
 }
-.main {
-	padding-bottom: 100px;
+.logos {
 	text-align: center;
+	background-color: gray;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 .logos img {
 	padding-left: 5px;
@@ -51,6 +67,13 @@ nav {
 	max-height: 20%;
 	max-width: 20%;
 }
+.cards {
+	display: flex;
+	align-items: center;
+	margin-left: 5vw;
+	margin-right: 5vw;
+}
+
 .products img {
 	max-height: 30vh;
 	max-width: 60vw;
@@ -62,19 +85,7 @@ nav {
 	padding-right: 15vw;
 	height: 40%;
 }
-.whatsNew {
-	padding-bottom: 15px;
-	height: 40%;
-}
-.carousel img {
-	max-width: 60vh;
-}
-.carousel {
-	width: 100vw;
-	min-height: 50vh;
-	background-color: black;
-	padding-top: 1em;
-}
+
 ul {
 	list-style-type: none;
 }
