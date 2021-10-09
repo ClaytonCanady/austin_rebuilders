@@ -7,7 +7,7 @@ class Products extends Component {
 	render() {
 		return (
 			<div>
-				<h2>Products and Services</h2>
+				<h2>We Are Proud To Offer These Products And Services</h2>
 				<br />
 				<div className='products'>
 					<div className='product'>

@@ -29,7 +29,7 @@ class App extends Component {
 							</Link>
 
 							<Link to='/contact'>
-								<p className={'link'}>Contact</p>
+								<p className={'link'}>Contact/Warranty</p>
 							</Link>
 						</nav>
 					</div>

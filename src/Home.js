@@ -10,6 +10,7 @@ import shop2 from './images/shop2.jpeg';
 import shop3 from './images/shop3.jpeg';
 import gatesHose from './images/gatesHose.png';
 import gatesLogo from './images/gatesLogo.jpeg';
+import royalBrass from './images/royalBrass.jpeg';
 import { Carousel } from 'react-bootstrap';
 class Home extends Component {
 	render() {
@@ -23,6 +24,7 @@ class Home extends Component {
 					<img src={spal} alt='spal' />
 					<img src={valeo} alt='valeo' />
 					<img src={atco} alt='atco' />
+					<img src={royalBrass} alt='royal brass'/>
 				</div>
 				<br />
 				<h1>What's New</h1>
