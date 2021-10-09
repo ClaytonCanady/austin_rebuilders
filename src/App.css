@@ -1,6 +1,5 @@
 .App {
 	background-color: rgb(189, 189, 189);
-	text-align: center;
 	background-size: cover;
 	max-height: fit-content;
 	min-height: 100vh;
@@ -10,32 +9,40 @@
 .title {
 	color: ghostwhite;
 	text-decoration: none;
+	text-align: left;
+}
+
+nav button {
+	background-color: #2b2bf3;
+	color: ghostwhite;
+	border: none;
+	max-width: 15vh;
+	max-height: 15vh;
+	min-width: fit-content;
+	min-height: fit-content;
+	text-align: center;
+}
+nav button:hover {
+	background-color: ghostwhite;
+	color: black;
 }
 
 .sidebar {
 	background-color: #2b2bf3;
-	margin-bottom: 2vh;
-	color: ghostwhite;
-}
 
-.link {
-	display: inline;
-	padding: 10px;
 	color: ghostwhite;
-	text-decoration: underline;
+	display: flex;
 }
-
 nav {
-	padding: 10px 0;
+	height: max-content;
 }
 
 .bold {
 	font-weight: bold;
 }
 .main {
-	margin-left: 5%;
-	margin-right: 5%;
 	padding-bottom: 100px;
+	text-align: center;
 }
 .logos img {
 	padding-left: 5px;
@@ -44,9 +51,6 @@ nav {
 	max-height: 20%;
 	max-width: 20%;
 }
-/* .products {
-
-} */
 .products img {
 	max-height: 30vh;
 	max-width: 60vw;
@@ -63,7 +67,13 @@ nav {
 	height: 40%;
 }
 .carousel img {
-	max-width: 70vw;
+	max-width: 60vh;
+}
+.carousel {
+	width: 100vw;
+	min-height: 50vh;
+	background-color: black;
+	padding-top: 1em;
 }
 ul {
 	list-style-type: none;

@@ -16,27 +16,6 @@ class Home extends Component {
 	render() {
 		return (
 			<div>
-				<div className='logos'>
-					<img src={denso} alt='denso' />
-					<img src={contenental} alt='continental' />
-					<img src={gatesLogo} alt='gates' />
-					<img src={sanden} alt='sanden' />
-					<img src={spal} alt='spal' />
-					<img src={valeo} alt='valeo' />
-					<img src={atco} alt='atco' />
-					<img src={royalBrass} alt='royal brass'/>
-				</div>
-				<br />
-				<h1>What's New</h1>
-				<img src={gatesHose} alt='whats new' className='whatsNew' />
-				<p>
-					We are excited to now offer repair of hydraulic hoses. We recommend
-					inspecting your hoses at least every week and replacing them as
-					preventative maintenance every 2 years. Hydraulic hose leaks can be
-					dangerous as well as costing you valuable time operating your
-					equipment.
-				</p>
-				<br></br>
 				<div className='carousel'>
 					<Carousel>
 						<Carousel.Item>
@@ -50,6 +29,28 @@ class Home extends Component {
 						</Carousel.Item>
 					</Carousel>
 				</div>
+				<div className='logos'>
+					<img src={denso} alt='denso' />
+					<img src={contenental} alt='continental' />
+					<img src={gatesLogo} alt='gates' />
+					<img src={sanden} alt='sanden' />
+					<img src={spal} alt='spal' />
+					<img src={valeo} alt='valeo' />
+					<img src={atco} alt='atco' />
+					<img src={royalBrass} alt='royal brass' />
+				</div>
+				<br />
+				<h1>What's New</h1>
+				<img src={gatesHose} alt='whats new' className='whatsNew' />
+				<p>
+					We are excited to now offer repair of hydraulic hoses. We recommend
+					inspecting your hoses at least every week and replacing them as
+					preventative maintenance every 2 years. Hydraulic hose leaks can be
+					dangerous as well as costing you valuable time operating your
+					equipment.
+				</p>
+				<br></br>
+
 				<br />
 
 				<br />
