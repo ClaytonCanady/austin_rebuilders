@@ -69,9 +69,18 @@ nav {
 }
 .cards {
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	margin-left: 5vw;
 	margin-right: 5vw;
+}
+.card img {
+	max-height: 30vh;
+	max-width: 30vh;
+}
+.card {
+	width: 40vw;
+	min-height: 50vh;
 }
 
 .products img {

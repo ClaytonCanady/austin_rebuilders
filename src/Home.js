@@ -62,7 +62,7 @@ class Home extends Component {
 				</div>
 				<br />
 				<div className='cards'>
-					<Card style={{ width: '45vw' }}>
+					<Card style={{ width: '40vw' }}>
 						<Card.Body>
 							<Card.Title>
 								<strong>What's New</strong>
@@ -78,7 +78,7 @@ class Home extends Component {
 						</Card.Body>
 					</Card>
 
-					<Card style={{ width: '45vw' }}>
+					<Card style={{ width: '40vw' }}>
 						<Card.Body>
 							<Card.Title>
 								<strong>We Specialize In Crimping All Hoses.</strong>
