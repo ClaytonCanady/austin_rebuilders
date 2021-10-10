@@ -12,7 +12,7 @@ class App extends Component {
 			<div>
 				<div className='App'>
 					<div className='sidebar'>
-						<div classname='title'>
+						<div className='title'>
 							<h3>AUSTIN REBUILDERS A/C PARTS & HOSES, INC.</h3>
 							<h5>AUTOMOTIVE - HEAVY DUTY - FARM</h5>
 						</div>

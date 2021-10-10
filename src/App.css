@@ -10,6 +10,8 @@
 	color: ghostwhite;
 	text-decoration: none;
 	text-align: left;
+	margin-left: 10px;
+	padding-right: 40vw;
 }
 
 nav button {
@@ -59,6 +61,8 @@ nav {
 	background-color: gray;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	margin-right: 5vw;
+	margin-left: 5vw;
 }
 .logos img {
 	padding-left: 5px;
@@ -71,15 +75,13 @@ nav {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	margin-left: 5vw;
-	margin-right: 5vw;
 }
 .card img {
 	max-height: 30vh;
 	max-width: 30vh;
 }
 .card {
-	width: 40vw;
+	width: 49vw;
 	min-height: 50vh;
 }
 

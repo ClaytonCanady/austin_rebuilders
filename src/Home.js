@@ -45,10 +45,11 @@ class Home extends Component {
 						for leaking components at a lower price than a new component.
 					</p>
 				</div>
-
+<br/>
 				<div className='text'>
 					<h2>We are proud to work with these distributors.</h2>
 				</div>
+				<br/>
 				<div className='logos'>
 					<img src={denso} alt='denso' />
 					<img src={contenental} alt='continental' />

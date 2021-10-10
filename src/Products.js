@@ -19,9 +19,7 @@ class Products extends Component {
 				<div className='cards'>
 					<Card className='card'>
 						<Card.Body>
-							<Card.Title>
-								<strong>Hydraulic Hose Repair and Replacement</strong>
-							</Card.Title>
+							<Card.Title>Hydraulic Hose Repair and Replacement</Card.Title>
 							<Card.Img variant='top' src={hydraulicHose} />
 							<Card.Text>
 								We now offer hydraulic hose repair using all Gates equipment and
@@ -31,9 +29,7 @@ class Products extends Component {
 					</Card>
 					<Card className='card'>
 						<Card.Body>
-							<Card.Title>
-								<strong>New A/C Hoses</strong>
-							</Card.Title>
+							<Card.Title>New A/C Hoses</Card.Title>
 							<Card.Img variant='top' src={newACHose} />
 							<Card.Text>
 								We carry popular New GM, Ford and Import air conditioning hose
@@ -44,9 +40,7 @@ class Products extends Component {
 
 					<Card className='card'>
 						<Card.Body>
-							<Card.Title>
-								<strong>Rebuilt A/C Hoses</strong>
-							</Card.Title>
+							<Card.Title>Rebuilt A/C Hoses</Card.Title>
 							<Card.Img variant='top' src={rebuiltHose} />
 							<Card.Text>
 								We can rebuild old hose assemblies with new fittings, new
@@ -57,9 +51,7 @@ class Products extends Component {
 
 					<Card className='card'>
 						<Card.Body>
-							<Card.Title>
-								<strong>Condenser Repair</strong>
-							</Card.Title>
+							<Card.Title>Condenser Repair</Card.Title>
 							<Card.Img variant='top' src={damagedCondenser} />
 							<Card.Text>
 								Have a "holy" condenser? Bring it in for a pressure test and/or
@@ -68,29 +60,10 @@ class Products extends Component {
 							</Card.Text>
 						</Card.Body>
 					</Card>
-					<Card className='card'>
-						<Card.Body>
-							<Card.Title>
-								<strong>Everything Else!</strong>
-							</Card.Title>
 
-							<Card.Text>
-								<li>Freon</li>
-								<li>Oil (Mineral, Ester, Pag 46-100-150, ICE-32)</li>
-								<li>Flush</li>
-								<li>Blower Motors</li>
-								<li>Relays/Switches</li>
-								<li>Fans</li>
-								<li>O-Rings & Gaskets</li>
-								<li>Tools and Equipment</li>
-							</Card.Text>
-						</Card.Body>
-					</Card>
 					<Card className='card'>
 						<Card.Body>
-							<Card.Title>
-								<strong>COMPRESSORS NEW & REBUILT</strong>
-							</Card.Title>
+							<Card.Title>COMPRESSORS NEW & REBUILT</Card.Title>
 
 							<Card.Text>
 								A/C Delco, Visteon, Motorcraft, Nippondenso, APCO, Delphi,
@@ -102,9 +75,7 @@ class Products extends Component {
 
 					<Card className='card'>
 						<Card.Body>
-							<Card.Title>
-								<strong>CLUTCH ASSEMBLIES</strong>
-							</Card.Title>
+							<Card.Title>CLUTCH ASSEMBLIES</Card.Title>
 
 							<Card.Text>
 								Warner Electric, Ogura, Motorcraft, A/C Delco, Sanden, Seltec
@@ -113,12 +84,26 @@ class Products extends Component {
 					</Card>
 					<Card className='card'>
 						<Card.Body>
-							<Card.Title>
-								<strong>CONDENSERS</strong>
-							</Card.Title>
+							<Card.Title>CONDENSERS</Card.Title>
 
 							<Card.Text>
 								A/C Delco, Motorcraft, Visteon, Modine, G-Dan Industries, Valeo
+							</Card.Text>
+						</Card.Body>
+					</Card>
+					<Card className='card'>
+						<Card.Body>
+							<Card.Title>Everything Else!</Card.Title>
+
+							<Card.Text>
+								<li>Freon</li>
+								<li>Oil (Mineral, Ester, Pag 46-100-150, ICE-32)</li>
+								<li>Flush</li>
+								<li>Blower Motors</li>
+								<li>Relays/Switches</li>
+								<li>Fans</li>
+								<li>O-Rings & Gaskets</li>
+								<li>Tools and Equipment</li>
 							</Card.Text>
 						</Card.Body>
 					</Card>
