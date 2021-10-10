@@ -45,11 +45,11 @@ class Home extends Component {
 						for leaking components at a lower price than a new component.
 					</p>
 				</div>
-<br/>
+				<br />
 				<div className='text'>
 					<h2>We are proud to work with these distributors.</h2>
 				</div>
-				<br/>
+				<br />
 				<div className='logos'>
 					<img src={denso} alt='denso' />
 					<img src={contenental} alt='continental' />
@@ -63,7 +63,7 @@ class Home extends Component {
 				</div>
 				<br />
 				<div className='cards'>
-					<Card style={{ width: '40vw' }}>
+					<Card style={{ width: '40vw' }} className='homeCard'>
 						<Card.Body>
 							<Card.Title>
 								<strong>What's New</strong>
@@ -79,7 +79,7 @@ class Home extends Component {
 						</Card.Body>
 					</Card>
 
-					<Card style={{ width: '40vw' }}>
+					<Card style={{ width: '40vw' }} className='homeCard'>
 						<Card.Body>
 							<Card.Title>
 								<strong>We Specialize In Crimping All Hoses.</strong>

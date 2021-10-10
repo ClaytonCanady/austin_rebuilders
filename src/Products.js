@@ -22,6 +22,7 @@ class Products extends Component {
 							<Card.Title>Hydraulic Hose Repair and Replacement</Card.Title>
 							<Card.Img variant='top' src={hydraulicHose} />
 							<Card.Text>
+								<br />
 								We now offer hydraulic hose repair using all Gates equipment and
 								hoses!
 							</Card.Text>
@@ -32,6 +33,7 @@ class Products extends Component {
 							<Card.Title>New A/C Hoses</Card.Title>
 							<Card.Img variant='top' src={newACHose} />
 							<Card.Text>
+								<br />
 								We carry popular New GM, Ford and Import air conditioning hose
 								assemblies in stock.
 							</Card.Text>
@@ -43,6 +45,7 @@ class Products extends Component {
 							<Card.Title>Rebuilt A/C Hoses</Card.Title>
 							<Card.Img variant='top' src={rebuiltHose} />
 							<Card.Text>
+								<br />
 								We can rebuild old hose assemblies with new fittings, new
 								rubber, hydraulic crimps, valve cores and o-rings.
 							</Card.Text>
@@ -53,7 +56,9 @@ class Products extends Component {
 						<Card.Body>
 							<Card.Title>Condenser Repair</Card.Title>
 							<Card.Img variant='top' src={damagedCondenser} />
+
 							<Card.Text>
+								<br />
 								Have a "holy" condenser? Bring it in for a pressure test and/or
 								repair. MOST holes can be repaired so the condenser will not
 								leak freon. Let us take a look!
@@ -66,9 +71,18 @@ class Products extends Component {
 							<Card.Title>COMPRESSORS NEW & REBUILT</Card.Title>
 
 							<Card.Text>
-								A/C Delco, Visteon, Motorcraft, Nippondenso, APCO, Delphi,
-								Sanden, Seltec, Frigette, Omega, UAC, Global Parts Dist.,
-								AUSTIN'S PREMIER COMPRESSOR REBUILDER
+								<li>A/C Delco</li>
+								<li>Visteon</li>
+								<li>Motorcraft</li>
+								<li>Nippondenso</li>
+								<li>APCO</li>
+								<li>Delphi</li>
+								<li>Sanden</li>
+								<li>Seltec</li>
+								<li>Frigette</li>
+								<li>Omega</li>
+								<li>UAC</li>
+								<li>Global Parts Dist.</li>
 							</Card.Text>
 						</Card.Body>
 					</Card>
@@ -78,7 +92,12 @@ class Products extends Component {
 							<Card.Title>CLUTCH ASSEMBLIES</Card.Title>
 
 							<Card.Text>
-								Warner Electric, Ogura, Motorcraft, A/C Delco, Sanden, Seltec
+								<li>Warner Electric</li>
+								<li>Ogura</li>
+								<li>Motorcraft</li>
+								<li>A/C Delco</li>
+								<li>Sanden</li>
+								<li>Seltec</li>
 							</Card.Text>
 						</Card.Body>
 					</Card>
@@ -87,7 +106,12 @@ class Products extends Component {
 							<Card.Title>CONDENSERS</Card.Title>
 
 							<Card.Text>
-								A/C Delco, Motorcraft, Visteon, Modine, G-Dan Industries, Valeo
+								<li>A/C Delco</li>
+								<li>Motorcraft</li>
+								<li>Visteon</li>
+								<li>Modine</li>
+								<li>G-Dan Industries</li>
+								<li>Valeo</li>
 							</Card.Text>
 						</Card.Body>
 					</Card>

@@ -71,6 +71,11 @@ nav {
 	max-height: 20%;
 	max-width: 20%;
 }
+
+.homeCard {
+	 margin: 0 auto; /* Added */
+      
+}
 .cards {
 	display: flex;
 	flex-wrap: wrap;
@@ -99,4 +104,8 @@ nav {
 
 ul {
 	list-style-type: none;
+}
+footer {
+	text-align: center;
+	padding-top: 25px;
 }
