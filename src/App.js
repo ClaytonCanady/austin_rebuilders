@@ -42,12 +42,17 @@ class App extends Component {
 						<Route path='/contact' component={Contact} />
 						<Route path='/products-services' component={Products} />
 					</main>
-					<footer className='bold'>
-						Austin Rebuilders, Inc. <br />
-						505 West Oltorf Street * Austin, TX 78704 <br /> 512-448-0884 *
-						512-448-0218 <br />
-						866-771-2367 Fax <br />
-						info@austinrebuildersinc.com
+					<footer>
+						<strong>
+							Austin Rebuilders A/C Parts & Hoses <br />
+							Automotive - Heavy Duty - Farm
+							<br />
+							505 West Oltorf Street * Austin, TX 78704 <br /> 512-448-0884{' '}
+							<br />
+							Fax 866-771-2367
+							<br />
+							j@aracparts.com
+						</strong>
 					</footer>
 				</div>
 			</div>

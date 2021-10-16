@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import newACHose from './images/newACHose.jpeg';
 import rebuiltHose from './images/rebuiltHose.jpeg';
-import damagedCondenser from './images/damagedCondenser.jpeg';
 import hydraulicHose from './images/hydraulicHose.jpeg';
 import { Card } from 'react-bootstrap';
 class Products extends Component {
@@ -12,8 +11,8 @@ class Products extends Component {
 				<div className='text'>
 					<h2>Our Services</h2>
 					<p>
-						We offer a variety of services and product to cover all of your hose
-						related needs.
+						We offer a variety of services and product to cover all of your
+						hose, A/C, and hydraulic needs.
 					</p>
 				</div>
 				<div className='cards'>
@@ -54,20 +53,6 @@ class Products extends Component {
 
 					<Card className='card'>
 						<Card.Body>
-							<Card.Title>Condenser Repair</Card.Title>
-							<Card.Img variant='top' src={damagedCondenser} />
-
-							<Card.Text>
-								<br />
-								Have a "holy" condenser? Bring it in for a pressure test and/or
-								repair. MOST holes can be repaired so the condenser will not
-								leak freon. Let us take a look!
-							</Card.Text>
-						</Card.Body>
-					</Card>
-
-					<Card className='card'>
-						<Card.Body>
 							<Card.Title>COMPRESSORS NEW & REBUILT</Card.Title>
 
 							<Card.Text>
@@ -87,20 +72,6 @@ class Products extends Component {
 						</Card.Body>
 					</Card>
 
-					<Card className='card'>
-						<Card.Body>
-							<Card.Title>CLUTCH ASSEMBLIES</Card.Title>
-
-							<Card.Text>
-								<li>Warner Electric</li>
-								<li>Ogura</li>
-								<li>Motorcraft</li>
-								<li>A/C Delco</li>
-								<li>Sanden</li>
-								<li>Seltec</li>
-							</Card.Text>
-						</Card.Body>
-					</Card>
 					<Card className='card'>
 						<Card.Body>
 							<Card.Title>CONDENSERS</Card.Title>

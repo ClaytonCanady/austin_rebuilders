@@ -9,7 +9,7 @@ class Contact extends Component {
 				<p className='bold'>MONDAY - FRIDAY</p>
 				<p>8:00 AM - 5:00 PM</p>
 				<p className='bold'>SATURDAY (Summer Only* Memorial Day - Labor Day)</p>
-				<p>8:30 AM - 12:00 PM</p>
+				<p>9:00 AM - 12:00 PM</p>
 				<p className='bold'>SUNDAY CLOSED</p>
 				<br />
 				<h2>Compressor Warranties</h2>

@@ -63,6 +63,7 @@ nav {
 	padding-bottom: 5px;
 	margin-right: 5vw;
 	margin-left: 5vw;
+	margin-top: 5vh;
 }
 .logos img {
 	padding-left: 5px;
@@ -73,8 +74,8 @@ nav {
 }
 
 .homeCard {
-	 margin: 0 auto; /* Added */
-      
+	margin: 0 auto;
+	width: 40vw;
 }
 .cards {
 	display: flex;
@@ -108,4 +109,28 @@ ul {
 footer {
 	text-align: center;
 	padding-top: 25px;
+}
+.review {
+	padding-top: 10px;
+}
+
+footer {
+	margin-top: 5vh;
+	padding-top: 0;
+}
+@media only screen and (max-width: 750px) {
+	.cards {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.card {
+		width: 80vw;
+		min-height: 50vh;
+	}
+	.homeCard {
+		min-height: 80vh;
+		max-height: fit-content;
+		width: 45vw;
+	}
 }

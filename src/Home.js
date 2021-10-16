@@ -11,7 +11,7 @@ import shop3 from './images/shop3.jpeg';
 import gatesHose from './images/gatesHose.png';
 import gatesLogo from './images/gatesLogo.jpeg';
 import royalBrass from './images/royalBrass.jpeg';
-import rebuiltHose from './images/rebuiltHose.jpeg'
+import rebuiltHose from './images/rebuiltHose.jpeg';
 import { Card, Carousel } from 'react-bootstrap';
 class Home extends Component {
 	render() {
@@ -44,26 +44,13 @@ class Home extends Component {
 						having to do a full rebuild. Hose and condenser repairs are offered
 						for leaking components at a lower price than a new component.
 					</p>
+					<h5>Local Delivery As Well As Drop Shipping Options Are Available.</h5>
 				</div>
 				<br />
-				<div className='text'>
-					<h2>We are proud to work with these distributors.</h2>
-				</div>
-				<br />
-				<div className='logos'>
-					<img src={denso} alt='denso' />
-					<img src={contenental} alt='continental' />
-					<img src={gatesLogo} alt='gates' />
-					<img src={sanden} alt='sanden' />
-					<br />
-					<img src={spal} alt='spal' />
-					<img src={valeo} alt='valeo' />
-					<img src={atco} alt='atco' />
-					<img src={royalBrass} alt='royal brass' />
-				</div>
+
 				<br />
 				<div className='cards'>
-					<Card style={{ width: '40vw' }} className='homeCard'>
+					<Card className='homeCard'>
 						<Card.Body>
 							<Card.Title>
 								<strong>What's New</strong>
@@ -79,7 +66,7 @@ class Home extends Component {
 						</Card.Body>
 					</Card>
 
-					<Card style={{ width: '40vw' }} className='homeCard'>
+					<Card className='homeCard'>
 						<Card.Body>
 							<Card.Title>
 								<strong>We Specialize In Crimping All Hoses.</strong>
@@ -96,6 +83,19 @@ class Home extends Component {
 							</Card.Text>
 						</Card.Body>
 					</Card>
+
+					<div className='logos'>
+						<img src={denso} alt='denso' />
+						<img src={contenental} alt='continental' />
+						<img src={gatesLogo} alt='gates' />
+						<img src={sanden} alt='sanden' />
+						<br />
+						<img src={spal} alt='spal' />
+						<img src={valeo} alt='valeo' />
+						<img src={atco} alt='atco' />
+						<img src={royalBrass} alt='royal brass' />
+					</div>
+					
 				</div>
 			</div>
 		);
