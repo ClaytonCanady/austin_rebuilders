@@ -83,8 +83,8 @@ class Home extends Component {
 							</Card.Text>
 						</Card.Body>
 					</Card>
-
-					<div className='logos'>
+				<div className='container'>
+				<div className='logos'>
 						<img src={denso} alt='denso' />
 						<img src={contenental} alt='continental' />
 						<img src={gatesLogo} alt='gates' />
@@ -95,6 +95,9 @@ class Home extends Component {
 						<img src={atco} alt='atco' />
 						<img src={royalBrass} alt='royal brass' />
 					</div>
+
+				</div>
+			
 					
 				</div>
 			</div>
