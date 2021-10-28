@@ -3,15 +3,17 @@ import React, { Component } from 'react';
 class Contact extends Component {
 	render() {
 		return (
-			<div>
+			<div className='text'>
+				<br/>
 				<h2>Hours</h2>
 				<p className='bold'>MONDAY - FRIDAY</p>
 				<p>8:00 AM - 5:00 PM</p>
 				<p className='bold'>SATURDAY (Summer Only* Memorial Day - Labor Day)</p>
-				<p>8:30 AM - 12:00 PM</p>
+				<p>9:00 AM - 12:00 PM</p>
 				<p className='bold'>SUNDAY CLOSED</p>
-				<br/>
-				<h2>Compressor Warranties</h2><br/>
+				<br />
+				<h2>Compressor Warranties</h2>
+				<br />
 				<h5>
 					{' '}
 					<i>
@@ -48,13 +50,7 @@ class Contact extends Component {
 					<li>8: Check for correct freon charge.</li>
 				</ul>
 
-				<footer className='bold'>
-					Austin Rebuilders, Inc. <br />
-					505 West Oltorf Street * Austin, TX 78704 <br /> 512-448-0884 *
-					512-448-0218 <br />
-					866-771-2367 Fax <br />
-					info@austinrebuildersinc.com
-				</footer>
+			
 			</div>
 		);
 	}

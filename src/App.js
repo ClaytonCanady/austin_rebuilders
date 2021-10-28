@@ -12,24 +12,26 @@ class App extends Component {
 			<div>
 				<div className='App'>
 					<div className='sidebar'>
-						<h1 className={'title'}>AUSTIN REBUILDERS</h1>
-						<h3>A/C PARTS & HOSES, INC.</h3>
-						<h5>AUTOMOTIVE - HEAVY DUTY - FARM</h5>
+						<div className='title'>
+							<h3>AUSTIN REBUILDERS A/C PARTS & HOSES, INC.</h3>
+							<h5>AUTOMOTIVE - HEAVY DUTY - FARM</h5>
+						</div>
 
 						<nav>
 							<Link to='/'>
-								<p className={'link'}>Home</p>
+								<button>Home</button>
 							</Link>
+
 							<Link to='/about-us'>
-								<p className={'link'}>About Us</p>
+								<button>About-Us</button>
 							</Link>
 
 							<Link to='/products-services'>
-								<p className={'link'}>Products and Services</p>
+								<button>Products</button>
 							</Link>
 
 							<Link to='/contact'>
-								<p className={'link'}>Contact/Warranty</p>
+								<button>Contact</button>
 							</Link>
 						</nav>
 					</div>
@@ -40,8 +42,18 @@ class App extends Component {
 						<Route path='/contact' component={Contact} />
 						<Route path='/products-services' component={Products} />
 					</main>
-
-				
+					<footer>
+						<strong>
+							Austin Rebuilders A/C Parts & Hoses <br />
+							Automotive - Heavy Duty - Farm
+							<br />
+							505 West Oltorf Street * Austin, TX 78704 <br /> 512-448-0884{' '}
+							<br />
+							Fax 866-771-2367
+							<br />
+							j@aracparts.com
+						</strong>
+					</footer>
 				</div>
 			</div>
 		);
