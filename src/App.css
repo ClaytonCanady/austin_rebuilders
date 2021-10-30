@@ -28,12 +28,15 @@ nav button:hover {
 	background-color: ghostwhite;
 	color: black;
 }
+nav {
+	text-align: right;
+}
 
 .sidebar {
 	background-color: #2b2bf3;
 
 	color: ghostwhite;
-	display: flex;
+	
 }
 nav {
 	height: max-content;
@@ -61,7 +64,6 @@ nav {
 	background-color: gray;
 	padding-top: 5px;
 	padding-bottom: 5px;
-
 	margin-top: 5vh;
 }
 .logos img {
@@ -131,5 +133,8 @@ footer {
 		min-height: 80vh;
 		max-height: fit-content;
 		width: 45vw;
+	}
+	.title {
+		padding-right: 20vw;
 	}
 }

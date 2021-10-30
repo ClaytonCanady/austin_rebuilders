@@ -23,7 +23,7 @@ class App extends Component {
 							</Link>
 
 							<Link to='/about-us'>
-								<button>About-Us</button>
+								<button>About</button>
 							</Link>
 
 							<Link to='/products-services'>

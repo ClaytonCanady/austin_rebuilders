@@ -7,23 +7,7 @@ class AboutUs extends Component {
 				<br/>
 				<div className='text'>
 					<h2>Your One Stop Shop For All Hose and A/C Needs.</h2>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor incididunt ut labore et dolore magna aliqua. Leo a
-						diam sollicitudin tempor id eu. In pellentesque massa placerat duis.
-						Quam vulputate dignissim suspendisse in est ante in. Nulla aliquet
-						enim tortor at auctor urna nunc id cursus. Orci nulla pellentesque
-						dignissim enim sit. Eu feugiat pretium nibh ipsum consequat. Semper
-						quis lectus nulla at volutpat diam ut venenatis. Elementum nibh
-						tellus molestie nunc non blandit massa enim nec. Egestas congue
-						quisque egestas diam in arcu cursus euismod. At urna condimentum
-						mattis pellentesque id nibh tortor id. Odio facilisis mauris sit
-						amet. Quisque egestas diam in arcu cursus euismod quis viverra. Nec
-						ullamcorper sit amet risus nullam eget. Eget lorem dolor sed viverra
-						ipsum nunc aliquet bibendum. Duis at tellus at urna. Mauris cursus
-						mattis molestie a iaculis. Scelerisque eleifend donec pretium
-						vulputate sapien nec.
-					</p>
+			
 				</div>
 				<div className='reviews text'>
 					<h3>Customer Reviews</h3>
