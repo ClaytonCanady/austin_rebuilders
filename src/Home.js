@@ -6,12 +6,13 @@ import sanden from './images/Sanden.png';
 import spal from './images/spal.png';
 import valeo from './images/valeo.png';
 import shop1 from './images/shop1.jpeg';
-import shop2 from './images/shop2.jpeg';
 import shop3 from './images/shop3.jpeg';
 import gatesHose from './images/gatesHose.png';
 import gatesLogo from './images/gatesLogo.jpeg';
 import royalBrass from './images/royalBrass.jpeg';
 import rebuiltHose from './images/rebuiltHose.jpeg';
+import hosesMachine from './images/hosesMachine.jpg';
+import gatesTs from './images/gatesTs.jpg';
 import { Card, Carousel } from 'react-bootstrap';
 class Home extends Component {
 	render() {
@@ -19,11 +20,14 @@ class Home extends Component {
 			<div>
 				<div className='carousel'>
 					<Carousel>
-						<Carousel.Item>
-							<img src={shop3} alt='front of shop' />
+					<Carousel.Item>
+							<img src={shop3} alt='tubes and hose machine' />
 						</Carousel.Item>
 						<Carousel.Item>
-							<img src={shop2} alt='front of shop' />
+							<img src={hosesMachine} alt='front of shop' />
+						</Carousel.Item>
+						<Carousel.Item>
+							<img src={gatesTs} alt='front of shop' />
 						</Carousel.Item>
 						<Carousel.Item>
 							<img src={shop1} alt='front of shop' />

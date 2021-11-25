@@ -51,6 +51,7 @@ nav {
 }
 .carousel img {
 	max-width: 60vh;
+	max-height: 40vh;
 }
 .text {
 	margin-left: 5vw;
