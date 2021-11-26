@@ -1,18 +1,13 @@
 import React, { Component } from 'react';
-import denso from './images/Denso.png';
-import atco from './images/atco.png';
-import contenental from './images/contenental.png';
-import sanden from './images/Sanden.png';
-import spal from './images/spal.png';
-import valeo from './images/valeo.png';
-import shop1 from './images/shop1.jpeg';
+
+// import shop1 from './images/shop1.jpeg';
 import shop3 from './images/shop3.jpeg';
 import gatesHose from './images/gatesHose.png';
-import gatesLogo from './images/gatesLogo.jpeg';
-import royalBrass from './images/royalBrass.jpeg';
+
 import rebuiltHose from './images/rebuiltHose.jpeg';
 import hosesMachine from './images/hosesMachine.jpg';
 import gatesTs from './images/gatesTs.jpg';
+import sawRack from './images/sawRack.jpg';
 import { Card, Carousel } from 'react-bootstrap';
 class Home extends Component {
 	render() {
@@ -21,16 +16,16 @@ class Home extends Component {
 				<div className='carousel'>
 					<Carousel>
 					<Carousel.Item>
-							<img src={shop3} alt='tubes and hose machine' />
+							<img src={shop3} alt='front of shop' />
 						</Carousel.Item>
 						<Carousel.Item>
-							<img src={hosesMachine} alt='front of shop' />
+							<img src={hosesMachine} alt="tubes and hose machine" />
 						</Carousel.Item>
 						<Carousel.Item>
-							<img src={gatesTs} alt='front of shop' />
+							<img src={gatesTs} alt="Gate's hydralic crimper" />
 						</Carousel.Item>
 						<Carousel.Item>
-							<img src={shop1} alt='front of shop' />
+							<img src={sawRack} alt='front of shop' />
 						</Carousel.Item>
 					</Carousel>
 				</div>
@@ -54,7 +49,7 @@ class Home extends Component {
 
 				<br />
 				<div className='cards'>
-					<Card className='homeCard'>
+					<Card className='homeCard' bg='light'>
 						<Card.Body>
 							<Card.Title>
 								<strong>What's New</strong>
@@ -70,7 +65,7 @@ class Home extends Component {
 						</Card.Body>
 					</Card>
 
-					<Card className='homeCard'>
+					<Card className='homeCard' bg="light">
 						<Card.Body>
 							<Card.Title>
 								<strong>We Specialize In Crimping All Hoses.</strong>
@@ -87,20 +82,7 @@ class Home extends Component {
 							</Card.Text>
 						</Card.Body>
 					</Card>
-				<div className='container'>
-				<div className='logos'>
-						<img src={denso} alt='denso' />
-						<img src={contenental} alt='continental' />
-						<img src={gatesLogo} alt='gates' />
-						<img src={sanden} alt='sanden' />
-						<br />
-						<img src={spal} alt='spal' />
-						<img src={valeo} alt='valeo' />
-						<img src={atco} alt='atco' />
-						<img src={royalBrass} alt='royal brass' />
-					</div>
-
-				</div>
+			
 			
 					
 				</div>

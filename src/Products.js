@@ -16,7 +16,7 @@ class Products extends Component {
 					</p>
 				</div>
 				<div className='cards'>
-					<Card className='card'>
+					<Card className='card' bg='light'>
 						<Card.Body>
 							<Card.Title>Hydraulic Hose Repair and Replacement</Card.Title>
 							<Card.Img variant='top' src={hydraulicHose} />
@@ -27,7 +27,7 @@ class Products extends Component {
 							</Card.Text>
 						</Card.Body>
 					</Card>
-					<Card className='card'>
+					<Card className='card' bg='light'>
 						<Card.Body>
 							<Card.Title>New A/C Hoses</Card.Title>
 							<Card.Img variant='top' src={newACHose} />
@@ -39,7 +39,7 @@ class Products extends Component {
 						</Card.Body>
 					</Card>
 
-					<Card className='card'>
+					<Card className='card' bg='light'>
 						<Card.Body>
 							<Card.Title>Rebuilt A/C Hoses</Card.Title>
 							<Card.Img variant='top' src={rebuiltHose} />
@@ -51,7 +51,7 @@ class Products extends Component {
 						</Card.Body>
 					</Card>
 
-					<Card className='card'>
+					<Card className='card' bg='light'>
 						<Card.Body>
 							<Card.Title>COMPRESSORS NEW & REBUILT</Card.Title>
 
@@ -72,7 +72,7 @@ class Products extends Component {
 						</Card.Body>
 					</Card>
 
-					<Card className='card'>
+					<Card className='card' bg='light'>
 						<Card.Body>
 							<Card.Title>CONDENSERS</Card.Title>
 
@@ -86,7 +86,7 @@ class Products extends Component {
 							</Card.Text>
 						</Card.Body>
 					</Card>
-					<Card className='card'>
+					<Card className='card' bg='light'>
 						<Card.Body>
 							<Card.Title>Everything Else!</Card.Title>
 

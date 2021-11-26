@@ -5,6 +5,14 @@ import Home from './Home';
 import AboutUs from './AboutUs';
 import Contact from './Contact';
 import Products from './Products';
+import denso from './images/Denso.png';
+import atco from './images/atco.png';
+import contenental from './images/contenental.png';
+import sanden from './images/Sanden.png';
+import spal from './images/spal.png';
+import valeo from './images/valeo.png';
+import gatesLogo from './images/gatesLogo.jpeg';
+import royalBrass from './images/royalBrass.jpeg';
 // import hoseHero from './images/hoseHero.png';
 class App extends Component {
 	render() {
@@ -42,6 +50,20 @@ class App extends Component {
 						<Route path='/contact' component={Contact} />
 						<Route path='/products-services' component={Products} />
 					</main>
+					<div className='container'>
+				<div className='logos'>
+						<img src={denso} alt='denso' />
+						<img src={contenental} alt='continental' />
+						<img src={gatesLogo} alt='gates' />
+						<img src={sanden} alt='sanden' />
+						<br />
+						<img src={spal} alt='spal' />
+						<img src={valeo} alt='valeo' />
+						<img src={atco} alt='atco' />
+						<img src={royalBrass} alt='royal brass' />
+					</div>
+
+				</div>
 					<footer>
 						<strong>
 							Austin Rebuilders A/C Parts & Hoses <br />
