@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 
-// import shop1 from './images/shop1.jpeg';
 import shop3 from './images/shop3.jpeg';
 import gatesHose from './images/gatesHose.png';
-
 import rebuiltHose from './images/rebuiltHose.jpeg';
 import hosesMachine from './images/hosesMachine.jpg';
 import gatesTs from './images/gatesTs.jpg';

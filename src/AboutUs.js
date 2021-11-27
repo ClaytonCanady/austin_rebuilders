@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-
+import sawJ from './images/sawJ.jpg'
+import gatesPs from './images/gatesPs.jpg'
 class AboutUs extends Component {
 	render() {
 		return (
@@ -7,7 +8,16 @@ class AboutUs extends Component {
 				<br/>
 				<div className='text'>
 					<h2>Your One Stop Shop For All Hose and A/C Needs.</h2>
+		<div className='cards'>
+			<div >
+			<img src={sawJ} className='aboutImg' alt='hose saw'/>
 			
+			</div>
+			<div>
+			<img src={gatesPs} className='aboutImg' alt='gates crimper'/>
+			</div>
+			
+		</div>
 				</div>
 				<div className='reviews text'>
 					<h3>Customer Reviews</h3>
